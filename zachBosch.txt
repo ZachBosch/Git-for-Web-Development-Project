@@ -12,37 +12,68 @@ link to finished codepen: https://codepen.io/zachbosch/pen/poRrZgV?editors=1100
     6. What do we put in the head of our HTML document? 
         metadata - doc title, 
     7. What is an id? 
+        an attribute used in html, used for styling, etc with JS and CSS.
     8. What elements can I add an id to? 
+        Any, only once per page.
     9. How many times can I use the same id on a page? 
+        once.
     10. What is a class? 
+        an attribute in html.
     11. What elements can I add a class to? 
+        Any
     12. How many times can I use the same class on a page? 
+        As many as is needed.
     13. How do I get my link to open in a new tab?
+        target="_blank"
     14. What is the alt attribute in the image tag used for? 
+        specifies alternate text if img cannot be displayed.
     15. How do I reference an id?
+        #
     16. What is the difference between a section and a div
+        div is block level, section is inline.
     17. What is CSS used for? 
+        Styling a page
     18. How to we select an element? Example - every h2 on the page
+        type the element, separated by commas.
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        ID can be used once, as a special identifier. Class can be applied multiple times. Class could isolate
+        various paragraphs, ID could identify a special element on a page such as h1.
     20. How do we select classes in CSS?
+        .<class name>
     21. How do we select a p element with a single class of “human””?
+        p.<class name>
     22. What is a parent child selector? When would this be useful? 
+        (parent > child). when you want all elements that are direct children of parent.
     23. How do you select all links within a div with the class of sidebar?
+        .sidebar a 
     24. What is a pseudo selector?
+        It's a keyword added to the selector to specify a special state of selected element.
     25. What do we use the change the spacing between lines?
+        line-height property      
     26. What do we use to change the spacing between letters?
+        letter-spacing property
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        text-transform
     28. How do I add a 1px border around my div that is dotted and black?
+        border: 1px dotted black
     29. How do I select everything on the page? 
+        *{}
     30. How do I write a comment in CSS?
+        /* */
     31. How do I find out what file I am in, when I am using the command line? 
+        pwd
     32. Using the command line - how do I see a list of files/folders in my current folder?
+        ls 
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        rm -r permanently deletes.
     34. Why should I use version control? 
+        Creates edit history and provides ability to collab.
     35. How often should I commit to github?
+        every 20min or so.
     36. What is the command we would use to push our repo up to github? 
+        git push -u origin <branch name>
     37. Walk me through Lambda's git flow. 
-
+        Fork, Clone, git clone, cd into clone, branch, open/edit in vscode, git add, git commit, git push
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
